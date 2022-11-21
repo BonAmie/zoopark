@@ -19,10 +19,10 @@ class Lion:
             print(self.Name, "РААААВВВ")
 
     def Eat(self):
-        return self.name, "Чавк Ном"
+        self.name="Чавк Ном"
 
     def Play(self):
-        return self.name, "прыг-скок"
+        self.name="прыг-скок"
 
 class Panda:
 
@@ -45,10 +45,10 @@ class Panda:
             print(self.Name, "иггигиги")
 
     def Eat(self):
-        return self.name, "хрум-хрум-хрум глык"
+        self.name="хрум-хрум-хрум глык"
 
     def Play(self):
-        return self.name, "*перекатывается из стороны в сторону"
+        self.name="*перекатывается из стороны в сторону"
 
 class Fox:
 
@@ -71,7 +71,7 @@ class Fox:
             print(self.Name, "фыр-фыр-фыр")
 
     def Eat(self):
-        return self.name, "чавк чвак"
+        self.name="чавк чвак"
 
     def Play(self):
-        return self.name, "прыгает и бугает в разные стороны"
+        self.name="прыгает и бугает в разные стороны"
