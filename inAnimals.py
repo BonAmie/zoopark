@@ -13,6 +13,7 @@ class Lion:
         self.Name = name
         self.Age = age
         self.Food = food
+        self.isFeed = False
         
     @property
         
@@ -24,9 +25,9 @@ class Lion:
     
     @Age.setter
     
-    def Age(self, value)
-        if value is int;
-            if value >= 0
+    def Age(self, value, isFeed)
+        if value is int
+            if value >= 0 
                 self.__age = value
             else
                 ptint("Вообще-то у меня есть возраст!")
@@ -35,9 +36,11 @@ class Lion:
         print(self.__Name, "РААААВВВ")
 
     def Eat(self, eda.type):
-        if (eda.tupe = eda):
+        if (eda.tupe = eda) and isFeed = False:
              self.name="Чавк Ном"
+             isFeed = True
         else
+             print("Я наелся!")
 
     def Play(self):
         self.name="прыг-скок"
@@ -50,9 +53,9 @@ class Panda:
         self.vid="Панда"
         self.Biom="Бамбуковые леса"
         self.ploshad="> 30 м кв"
-        self.pisha="бамбуковые"
+        self.pisha="бамбук"
         self.eda="травоядные"
-        self.zvyk="игигиги(звуки заводящегося жигуля( не знаю как это назвать по-другому))"
+        self.zvyk="агаггааг(звуки заводящегося жигуля( не знаю как это назвать по-другому))"
         #животное
         self.Name = name
         self.Age = age
@@ -62,8 +65,12 @@ class Panda:
         for i in range(number):
             print(self.Name, "иггигиги")
 
-    def Eat(self):
-        self.name="хрум-хрум-хрум глык"
+    def Eat(self, eda.type):
+        if (eda.tupe = eda) and isFeed = False:
+             self.name="хрум-хрум-хрум глык""
+             isFeed = True
+        else
+             print("Я наелся!")
 
     def Play(self):
         self.name="*перекатывается из стороны в сторону"
@@ -94,7 +101,7 @@ class Fox:
         self.Biom="Тундра"
         self.ploshad="> 25 м кв"
         self.pisha="мясо"
-        self.eda="курица, грызу"
+        self.eda=["курица", "грызуны"]
         self.zvyk="фыр-фыр"
         #животное
         self.Name = name
@@ -105,8 +112,12 @@ class Fox:
         for i in range(number):
             print(self.Name, "фыр-фыр-фыр")
 
-    def Eat(self):
-        self.name="чавк чвак"
+    def Eat(self, eda.type):
+        if (eda.tupe = eda) and isFeed = False:
+             self.name="чавк чвак"
+             isFeed = True
+        else
+             print("Я наелся!")
 
     def Play(self):
         self.name="прыгает и бугает в разные стороны"
