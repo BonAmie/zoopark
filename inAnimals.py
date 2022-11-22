@@ -14,9 +14,8 @@ class Lion:
         self.Age = age
         self.Food = food
 
-    def Voice(self, number):
-        for i in range(number):
-            print(self.Name, "РААААВВВ")
+    def Voice(self)
+        print(self.Name, "РААААВВВ")
 
     def Eat(self):
         self.name="Чавк Ном"
